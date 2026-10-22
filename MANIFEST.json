@@ -1,0 +1,317 @@
+{
+  "schema": "mixed76_share_manifest_v1",
+  "date": "2026-10-20",
+  "scope": "sanitized docs, two client overlays, protocol; no models or hardware runtime",
+  "files": [
+    {
+      "path": "README_先读.md",
+      "bytes": 2368,
+      "sha256": "b89edc3a759c78bbf049b1a076cec291a2c27cbc4431012baf7cf20f68acae09"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1579,
+      "sha256": "6e932b6cdcab5ae731bfa9baa1ea0137b60b590039dd26e1775fc2b2f40bb66e"
+    },
+    {
+      "path": "clients/g2/.gitignore",
+      "bytes": 116,
+      "sha256": "e47f158ac60eb0bc82b7d0f20fa20320edf6e2573ef37f12cc4e9933d0f4f7e6"
+    },
+    {
+      "path": "clients/g2/README.md",
+      "bytes": 706,
+      "sha256": "0da3b0056710f9abe23ab2d342856efaeaad137f964a198655d07b8edc7ed484"
+    },
+    {
+      "path": "clients/g2/configs/mixed76_examples/alpha_mixed76_v4.example.json",
+      "bytes": 169,
+      "sha256": "ce3fa8dc61aa445949faaacd94c0967385a344ecb9de51012890a08d80f93b53"
+    },
+    {
+      "path": "clients/g2/configs/mixed76_examples/coarse_fine_mixed76_v4.example.json",
+      "bytes": 175,
+      "sha256": "930964b7a36221cd5797fe160649ecd4d9fbff3bcdb170c6a71cd158b39769bc"
+    },
+    {
+      "path": "clients/g2/configs/mixed76_examples/fastwam_mixed76_v4.example.json",
+      "bytes": 171,
+      "sha256": "4569055119cfd720287d7901ca7b24bcf5c7bbb4eb004d1c76106f46db4f99b6"
+    },
+    {
+      "path": "clients/g2/configs/mixed76_examples/joint_mixed76_v4.example.json",
+      "bytes": 169,
+      "sha256": "aecf9041f85f56171a8eab84131074a3036118f861c47722328ebfd772631efc"
+    },
+    {
+      "path": "clients/g2/configs/mixed76_examples/pi05_mixed76_v4.example.json",
+      "bytes": 168,
+      "sha256": "e2f296b7af24a41aa2a28967fc7d05751431c3e4eabdc72320ff5b72640b46f4"
+    },
+    {
+      "path": "clients/g2/configs/mixed76_examples/tri_mixed76_v4.example.json",
+      "bytes": 167,
+      "sha256": "fe69004baf688715524e2727c2903424b41900e6638ed4ce263025e7580a62f0"
+    },
+    {
+      "path": "clients/g2/docs/mixed76/PROTOCOL_V4.md",
+      "bytes": 4435,
+      "sha256": "e2692399fcc6807f01f4f02ad6d48134b14fd74ca3e0d27c9129fcd896884225"
+    },
+    {
+      "path": "clients/g2/docs/mixed76/README.md",
+      "bytes": 1582,
+      "sha256": "3902ae14c6d817e0c8cfff122f65dd0984369354472a24f6a046f5ef8b45d826"
+    },
+    {
+      "path": "clients/g2/scripts/_ours_protocol.py",
+      "bytes": 2417,
+      "sha256": "6850b72c2e13ba396a201d8c0bd166120130bed91015895038619e93401c5c80"
+    },
+    {
+      "path": "clients/g2/scripts/client_mixed76.py",
+      "bytes": 4388,
+      "sha256": "8a4d7852eb0efb5100e29fbaafb430f3b8dc322bae5949a9088cb993e4cc75a5"
+    },
+    {
+      "path": "clients/g2/scripts/inference_connection.py",
+      "bytes": 4637,
+      "sha256": "f63752476c309bc49338825b6e11e934ddd8cd95acd8267023dbebabac654651"
+    },
+    {
+      "path": "clients/g2/scripts/mixed76_contract.py",
+      "bytes": 3093,
+      "sha256": "aaeaf04fb363e31eb1e825e2bd467989f39954ae7297a9da475542dec583a231"
+    },
+    {
+      "path": "clients/g2/scripts/run_mixed76_client.py",
+      "bytes": 4838,
+      "sha256": "65ea0598f1ffaa25ce8868294a92021aeed4e0f6833a4096f0dac07722a0ca4e"
+    },
+    {
+      "path": "clients/g2/tests/test_mixed76_v4.py",
+      "bytes": 6877,
+      "sha256": "dc3cdeba851e19829852f39d11a8810a4bd5d5755802149a034241e5f541b67d"
+    },
+    {
+      "path": "clients/piper/.gitignore",
+      "bytes": 160,
+      "sha256": "c517bfe07ff47dcf5b925bbeb72f6314b6bac943c99aa9bce55d41ed232f6cb4"
+    },
+    {
+      "path": "clients/piper/README.md",
+      "bytes": 2757,
+      "sha256": "e46d6c14eb79d146ac4b13eadabd03a40135f38dfdee5c4dad3017870059847c"
+    },
+    {
+      "path": "clients/piper/docs/PROTOCOL_V4.md",
+      "bytes": 4435,
+      "sha256": "e2692399fcc6807f01f4f02ad6d48134b14fd74ca3e0d27c9129fcd896884225"
+    },
+    {
+      "path": "clients/piper/src/__init__.py",
+      "bytes": 37,
+      "sha256": "c1e38e330d7300e84137804e71ca9901af6f3bc04fb8d30e2e9c4f74aa4b6ebd"
+    },
+    {
+      "path": "clients/piper/src/infer/__init__.py",
+      "bytes": 75,
+      "sha256": "9d7880f237fe441f79376a474fbb132eccb5c988f37b66493b6edcf84efe4839"
+    },
+    {
+      "path": "clients/piper/src/infer/client.py",
+      "bytes": 8724,
+      "sha256": "ee9af449ac5314fd6b55473252e4a0966a19a8dfb5d1336f27d52e762f73bf88"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_client.py",
+      "bytes": 4204,
+      "sha256": "ec229542050c63cecb5efb023122a069d70aad0434cb897a03de37483045e144"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_common/_ours_protocol.py",
+      "bytes": 2417,
+      "sha256": "6850b72c2e13ba396a201d8c0bd166120130bed91015895038619e93401c5c80"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_common/client_mixed76.py",
+      "bytes": 4388,
+      "sha256": "8a4d7852eb0efb5100e29fbaafb430f3b8dc322bae5949a9088cb993e4cc75a5"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_common/inference_connection.py",
+      "bytes": 4637,
+      "sha256": "f63752476c309bc49338825b6e11e934ddd8cd95acd8267023dbebabac654651"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_common/mixed76_contract.py",
+      "bytes": 3093,
+      "sha256": "aaeaf04fb363e31eb1e825e2bd467989f39954ae7297a9da475542dec583a231"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_common/piper_mixed76.py",
+      "bytes": 847,
+      "sha256": "4590cd42041f92c62b3f2f4dfcfb3e6c9e42df6f1930842a01803d49e0e82e55"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_common/test_cli_smoke.py",
+      "bytes": 955,
+      "sha256": "4b20518b6ad27d89775ae624f6469be4e935591c7961cadc9a19faee63abe284"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_common/test_unified_client.py",
+      "bytes": 5051,
+      "sha256": "97129b9db5004c5822c6cd5175bdbc016f6ae770dab25a01ed84dc233c96916b"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_configs/alpha_mixed76_v4.example.json",
+      "bytes": 169,
+      "sha256": "ce3fa8dc61aa445949faaacd94c0967385a344ecb9de51012890a08d80f93b53"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_configs/coarse_fine_mixed76_v4.example.json",
+      "bytes": 175,
+      "sha256": "930964b7a36221cd5797fe160649ecd4d9fbff3bcdb170c6a71cd158b39769bc"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_configs/fastwam_mixed76_v4.example.json",
+      "bytes": 171,
+      "sha256": "4569055119cfd720287d7901ca7b24bcf5c7bbb4eb004d1c76106f46db4f99b6"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_configs/joint_mixed76_v4.example.json",
+      "bytes": 169,
+      "sha256": "aecf9041f85f56171a8eab84131074a3036118f861c47722328ebfd772631efc"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_configs/pi05_mixed76_v4.example.json",
+      "bytes": 168,
+      "sha256": "e2f296b7af24a41aa2a28967fc7d05751431c3e4eabdc72320ff5b72640b46f4"
+    },
+    {
+      "path": "clients/piper/src/infer/mixed76_configs/tri_mixed76_v4.example.json",
+      "bytes": 167,
+      "sha256": "fe69004baf688715524e2727c2903424b41900e6638ed4ce263025e7580a62f0"
+    },
+    {
+      "path": "clients/piper/src/infer/model/__init__.py",
+      "bytes": 126,
+      "sha256": "9539a48e8e1889265a0251e44cf5cd6967741ca8944078f13abd27f1520ab716"
+    },
+    {
+      "path": "clients/piper/src/infer/model/api.py",
+      "bytes": 2831,
+      "sha256": "5470f9fbd9d37e20d051c98aa82e23ae49e4a2383fa0353af814d8c97b827def"
+    },
+    {
+      "path": "clients/piper/src/infer/model/loader.py",
+      "bytes": 3289,
+      "sha256": "b55944bfee8bbd45988bbdb7ec1191667984dca401c58fa5eb1c614ba91a11aa"
+    },
+    {
+      "path": "clients/piper/src/infer/protocol.py",
+      "bytes": 2001,
+      "sha256": "511e7faed622fd38a88246b487d180a8501348410d8cfd43eae913ffca7a46c2"
+    },
+    {
+      "path": "clients/piper/src/infer/robot.py",
+      "bytes": 7791,
+      "sha256": "2d0134b67be27ff767ba16398d4e15e1b353fd42f4a4f1db099be6de721e7cb3"
+    },
+    {
+      "path": "clients/piper/src/infer/tasks.py",
+      "bytes": 6627,
+      "sha256": "a4f8116acc7417c7beaa794fc622c666a2c25fd063cf7e01e836e92bd09cbe6b"
+    },
+    {
+      "path": "clients/piper/src/replay/__init__.py",
+      "bytes": 84,
+      "sha256": "71f24a367809f8eff4c464b57daf96eb771a9b564303d1d779b7a05af740a3fb"
+    },
+    {
+      "path": "clients/piper/src/replay/inverse_kinematics.py",
+      "bytes": 3571,
+      "sha256": "e6fc1955575dd31a7ecf3b3e10eff56388aebf7148e4b5114270827c6539440d"
+    },
+    {
+      "path": "clients/piper/src/replay/kinematics.json",
+      "bytes": 391,
+      "sha256": "c25e4791670fe4b1c7357da7748c30fc099e355444c9210f4cb77f09c6d10f18"
+    },
+    {
+      "path": "clients/piper/src/replay/replay.py",
+      "bytes": 22541,
+      "sha256": "9dfd947694e4a58229f0190adc1bf188d721dfece5f15fafa1cf7a38978dec19"
+    },
+    {
+      "path": "clients/piper/src/replay/replay_io.py",
+      "bytes": 5612,
+      "sha256": "6dc886137cfc145df05c62661efd44e3b4d1d634277b074f7ecc2e71b822aba4"
+    },
+    {
+      "path": "clients/piper/src/replay/trajectory.py",
+      "bytes": 6901,
+      "sha256": "40ed99aa625b39d45a3a70b36e471c9763a8a17def31d9c60d3f36170f7195a8"
+    },
+    {
+      "path": "clients/piper/tests/test_inverse_kinematics.py",
+      "bytes": 1950,
+      "sha256": "1a75a7a49b9d3fc917ebc09cc45799fdde782e6d665113571b14faa411605b14"
+    },
+    {
+      "path": "docs/任务指令.md",
+      "bytes": 1247,
+      "sha256": "ce7281420d50f018fddaead16253279962d77be9cc7ea7bbf4a45d0a4fc7c4aa"
+    },
+    {
+      "path": "docs/六模型推理交接_分享版.md",
+      "bytes": 12809,
+      "sha256": "0f67568e13d64a83ea16defb0b906e47af9687931aff4495aa67c4133b40fa43"
+    },
+    {
+      "path": "docs/版本与验证边界.md",
+      "bytes": 2198,
+      "sha256": "ac24d362f7d07cfc4366adfcd28ec80a4789031ceaa365712b4fc384535936fa"
+    },
+    {
+      "path": "protocol/PROTOCOL_V4_original.md",
+      "bytes": 4436,
+      "sha256": "551b5fe11f491bc9b1971fd68157380e7e72a828a798fa3a7bf772d99e7c8cf8"
+    },
+    {
+      "path": "protocol/_ours_protocol.py",
+      "bytes": 2417,
+      "sha256": "6850b72c2e13ba396a201d8c0bd166120130bed91015895038619e93401c5c80"
+    },
+    {
+      "path": "protocol/mixed76_contract.py",
+      "bytes": 3093,
+      "sha256": "aaeaf04fb363e31eb1e825e2bd467989f39954ae7297a9da475542dec583a231"
+    },
+    {
+      "path": "protocol/通信协议_TCP_v4.md",
+      "bytes": 7708,
+      "sha256": "e90d2039a0e7af4e3757c30002abb3c986bbbffc8335629262b5e245cfdaa3a5"
+    },
+    {
+      "path": "requirements-offline.txt",
+      "bytes": 19,
+      "sha256": "fb5180876e2c9d83f59a9eed471978dde7f64567fe37ba702fdd2e266c87c482"
+    },
+    {
+      "path": "tools/run_offline_tests.sh",
+      "bytes": 596,
+      "sha256": "bfc6ed26e307af7c33c3019764b028372500bb98b5b0cf0b9793e8c5f029b340"
+    },
+    {
+      "path": "tools/server_launch_examples.sh",
+      "bytes": 2528,
+      "sha256": "b8709f51781d41d504be8c8a41d0b8acebcca012639088de90ec41b71732b266"
+    },
+    {
+      "path": "tools/verify_manifest.py",
+      "bytes": 1175,
+      "sha256": "f1dd7bf6760fd11c0fb5b6f61f07826a8cfa0531ba7bdc516bab6813a60bbae2"
+    }
+  ]
+}

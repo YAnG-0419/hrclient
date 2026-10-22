@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+*.log
+*.npy
+*.npz
+*_mixed76_v4.json
+!*.example.json

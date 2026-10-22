@@ -1,0 +1,6 @@
+{
+  "robot_model": "piper_h",
+  "dh_is_offset": 1,
+  "parameter_source": "https://github.com/agilexrobotics/pyAgxArm/blob/master/pyAgxArm/api/constants.py",
+  "identification": "2026-10-09: all three followers report Piper_H_MC and S-V1.9-0; official H geometry matches independent controller XYZ within 0.01mm at sampled stationary poses. Ordinary Piper geometry differs by about 9.3mm."
+}

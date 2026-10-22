@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*.npz
+*.npy
+*.jsonl
+*.log
+.pytest_cache/
+data_vis/
+src/infer/mixed76_configs/*_mixed76_v4.json
+!src/infer/mixed76_configs/*.example.json

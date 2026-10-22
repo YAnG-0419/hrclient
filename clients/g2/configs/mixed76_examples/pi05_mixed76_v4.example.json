@@ -1,0 +1,8 @@
+{
+  "model": "pi05",
+  "protocol_version": 4,
+  "ssh_host": "YOUR_SSH_ALIAS",
+  "server_host": "127.0.0.1",
+  "server_port": 8857,
+  "status": "configure-before-use"
+}
