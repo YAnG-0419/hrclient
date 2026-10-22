@@ -8,6 +8,7 @@
 docs/                           完整便携交接、依赖、启动命令、版本差异
 clients/g2/                     G2客户端覆盖层、6份脱敏端点模板和协议测试
 clients/piper/                  Piper客户端覆盖层、6份脱敏端点模板和IK/协议测试
+clients/fr3_wuji/               FR3+Wuji EgoAV78 TCP v4观测/IK/fast真机适配层
 protocol/                       中文协议、原始合同和可运行wire/mapping实现
 tools/server_launch_examples.sh  六模型server通用启动模板（部署参数需填写）
 tools/run_offline_tests.sh       本机回环测试，不访问机器人和模型服务器
@@ -32,3 +33,8 @@ PYTHON=../mixed76-test-env/bin/python bash tools/run_offline_tests.sh
 `requirements-offline.txt` 指“不访问硬件/真实模型”的测试环境；首次pip安装仍需要网络或自备wheel。它不是GPU模型部署或机器人硬件依赖锁文件。
 
 收到包后需要自行配置：模型server代码、checkpoint目录、匹配Python运行时、可达的SSH别名和端点、机器人驱动/映射、相机与CAN配置。先用真实记录观测验证对应任务，再切到执行模式。
+
+FR3+Wuji需另读 `clients/fr3_wuji/README.md`。该入口针对 `egoav78_chunk_v1`
+78D/20Hz/32步服务，复用现有 EEF replay 的 cam0↔base、`fr3_link8` FK/IK 和
+Pi05 观测链。真机入口与只读入口分离；真机入口要求显式受监督执行，并保留
+Pi05 的所有权锁、关节限位、跟踪、反馈时效、20ms命令寿命和停止保护。

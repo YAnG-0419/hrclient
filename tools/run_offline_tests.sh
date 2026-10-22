@@ -13,3 +13,7 @@ python_bin=$("$python_bin" -c 'import sys; print(sys.executable)')
   cd "$root/clients/piper"
   PYTHONPATH="$PWD:$PWD/src/infer/mixed76_common" "$python_bin" -m unittest discover -s src/infer/mixed76_common -p test_unified_client.py -v
 )
+(
+  cd "$root/clients/fr3_wuji"
+  PYTHONPATH="$PWD/scripts" "$python_bin" -m unittest discover -s tests -p 'test_*.py' -v
+)

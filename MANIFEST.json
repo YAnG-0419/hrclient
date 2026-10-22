@@ -1,17 +1,107 @@
 {
-  "schema": "mixed76_share_manifest_v1",
-  "date": "2026-10-20",
-  "scope": "sanitized docs, two client overlays, protocol; no models or hardware runtime",
+  "schema": "mixed80_share_manifest_v1",
+  "date": "2026-10-22",
+  "scope": "sanitized docs, Mixed76 clients/protocol, FR3/Wuji EgoAV78 observation/IK/fast hardware adapter; no models or complete robot runtime",
   "files": [
     {
       "path": "README_先读.md",
-      "bytes": 2368,
-      "sha256": "b89edc3a759c78bbf049b1a076cec291a2c27cbc4431012baf7cf20f68acae09"
+      "bytes": 2827,
+      "sha256": "7e65e7747194f5b99f880bc5852670c4870c87fec96424e3c9124653a239c413"
     },
     {
       "path": "VALIDATION.md",
-      "bytes": 1579,
-      "sha256": "6e932b6cdcab5ae731bfa9baa1ea0137b60b590039dd26e1775fc2b2f40bb66e"
+      "bytes": 2036,
+      "sha256": "c1b97b4efbd381285af78ba2be8979062e2e6a6998e44c44a6be5633cac4251b"
+    },
+    {
+      "path": "clients/fr3_wuji/README.md",
+      "bytes": 6022,
+      "sha256": "5d3bde002392292d4c5d874a0cda7564bbfda54bd517ad2d7692fd26d027ba5c"
+    },
+    {
+      "path": "clients/fr3_wuji/configs/joint_relative_remote.json",
+      "bytes": 260,
+      "sha256": "2981c82daa7ae36a174768c15bca6e617726949e97f5dc2845bb2fa893860214"
+    },
+    {
+      "path": "clients/fr3_wuji/configs/joint_remote.json",
+      "bytes": 251,
+      "sha256": "6df9b6767ae6ac28ed9509ab852bd52705ecc2ee12b09b1e78c0cbdba6019694"
+    },
+    {
+      "path": "clients/fr3_wuji/configs/tri_remote.json",
+      "bytes": 249,
+      "sha256": "9b9518aa57e0ced5792106440db603a82336a2533df5d9abd4cc0883953d0280"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/doctor.py",
+      "bytes": 2291,
+      "sha256": "bb0c95013f650e8873470929439d9f852ceee28263464363d48827fa1a9e5d4a"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/egoav78_codec.py",
+      "bytes": 9405,
+      "sha256": "a247097f4838ee7c1e2afe27a826baf1a0c08dba9765ca7f3e4a3e0d341e1b95"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/egoav78_fast.py",
+      "bytes": 9669,
+      "sha256": "1ed6c109847e22b9c521cf0a9230a7cdf2f83aad6afc459cf2af284edacb6c25"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/head_observation.py",
+      "bytes": 2323,
+      "sha256": "0d81eab9a88ac486c30f3c41b100aab02d22468e662ac6c0fc35db1db5cfe151"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/inference_connection.py",
+      "bytes": 5263,
+      "sha256": "b1ab103be820aac15311fd9a4d8c1fb705f8cafaa00a4d25af54117c29e9586d"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/model_transport_v4.py",
+      "bytes": 5663,
+      "sha256": "5cae1d28cdbc849cf0879995edd648ed57cb03c9531cc29bdbe9b22f6609370f"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/run_egoav78_client.py",
+      "bytes": 8289,
+      "sha256": "71c244d5706b6f302e664007294bb307c6d9fea7d1233a3c07f58b1a8ccaaba3"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/runtime_overlay.py",
+      "bytes": 970,
+      "sha256": "5ee610e75aa710b5f40c6dfbe0a0f44053e95587e2704b3a2708c86681bc8816"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/run_egoav78_fast.py",
+      "bytes": 9516,
+      "sha256": "56cdfc88ce6f7441d8c8dff96d3e3d37eff99d7e0b900036edf3f5786f60cfba"
+    },
+    {
+      "path": "clients/fr3_wuji/scripts/wire_v4.py",
+      "bytes": 2313,
+      "sha256": "b1070589f803814770d276ba45495172864ca728ade7b23ac45953199e488835"
+    },
+    {
+      "path": "clients/fr3_wuji/runtime_overlay/observation_sources_head.py",
+      "bytes": 5116,
+      "sha256": "a1cbdaac7108ebacf19a7ea631c388d7c3fdfbf52e7a111c5f6d959cbe3abf36"
+    },
+    {
+      "path": "clients/fr3_wuji/runtime_overlay/sitecustomize.py",
+      "bytes": 7787,
+      "sha256": "63970cabaadf601b56a7f05063e66badd6b7c2ab3aad3bcc3b218acae6926498"
+    },
+    {
+      "path": "clients/fr3_wuji/tests/test_egoav78.py",
+      "bytes": 5080,
+      "sha256": "7b13cad8be34a83cdeb8baf458fadca8e16562e6f06551308efd76d312f13b61"
+    },
+    {
+      "path": "clients/fr3_wuji/tests/test_egoav78_fast.py",
+      "bytes": 5058,
+      "sha256": "218af7df5b0865b5f8b55822bb3c14ceb9022760bcc7177264581dd8d937152f"
     },
     {
       "path": "clients/g2/.gitignore",
@@ -300,8 +390,8 @@
     },
     {
       "path": "tools/run_offline_tests.sh",
-      "bytes": 596,
-      "sha256": "bfc6ed26e307af7c33c3019764b028372500bb98b5b0cf0b9793e8c5f029b340"
+      "bytes": 720,
+      "sha256": "921fe80c0dbffde89c4e7f8d69d7663e3cdc244e20b4e0f5aaaa03a06833d132"
     },
     {
       "path": "tools/server_launch_examples.sh",
@@ -310,8 +400,8 @@
     },
     {
       "path": "tools/verify_manifest.py",
-      "bytes": 1175,
-      "sha256": "f1dd7bf6760fd11c0fb5b6f61f07826a8cfa0531ba7bdc516bab6813a60bbae2"
+      "bytes": 1201,
+      "sha256": "d8a3cf2bb2e7570f53f31f2eb703efad1b37fa2d9593815d7d16e8b6f3b4abd1"
     }
   ]
 }

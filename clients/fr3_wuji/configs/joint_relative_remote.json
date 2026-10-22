@@ -1,0 +1,9 @@
+{
+  "protocol": "egoav78_chunk_v1",
+  "model_name": "joint_relative",
+  "ssh_host": "b300",
+  "server_host": "127.0.0.1",
+  "server_port": 18868,
+  "deployment_id": "da84697c442a77d08cd3d1e9cd8b1afe6e84b8c4061766de361fe99210c09c70",
+  "status": "configured"
+}

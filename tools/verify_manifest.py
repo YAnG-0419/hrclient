@@ -18,7 +18,7 @@ for item in manifest["files"]:
     if len(content) != item["bytes"] or hashlib.sha256(content).hexdigest() != item["sha256"]:
         raise SystemExit(f"Hash/size mismatch: {relative}")
 actual = {p.relative_to(root).as_posix() for p in root.rglob("*") if p.is_file()
-          and "__pycache__" not in p.parts and p.suffix != ".pyc"}
+          and ".git" not in p.parts and "__pycache__" not in p.parts and p.suffix != ".pyc"}
 if actual != expected | {"MANIFEST.json"}:
     raise SystemExit(f"Unlisted files: {sorted(actual - expected - {'MANIFEST.json'})}")
 print(f"VERIFIED: {len(expected)} files; all sizes and SHA256 match")

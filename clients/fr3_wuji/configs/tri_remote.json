@@ -1,0 +1,9 @@
+{
+  "protocol": "egoav78_chunk_v1",
+  "model_name": "tri",
+  "ssh_host": "b300",
+  "server_host": "127.0.0.1",
+  "server_port": 18870,
+  "deployment_id": "f80b343d7ee549ea9e55d35e4ae336092a19b10e62e1f278a689036113f5c9a7",
+  "status": "configured"
+}
